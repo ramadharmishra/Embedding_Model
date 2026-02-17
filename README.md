@@ -1,6 +1,6 @@
 # Intelligent Product Recommendation System
 
-An intelligent recommendation system that uses **OpenAI Embeddings** and **Cosine Similarity** to match customer queries with the most relevant banking products.
+An intelligent recommendation system that uses **OpenAI Embeddings** and **Cosine Similarity** to match customer queries with the most relevant products.
 
 ---
 
@@ -8,7 +8,7 @@ An intelligent recommendation system that uses **OpenAI Embeddings** and **Cosin
 
 Traditional keyword-based search often fails to capture true user intent. This project demonstrates how **vector embeddings** can be used to build a semantic search engine that understands context rather than relying on exact keyword matches.
 
-In this scenario, a retail bank maps its products (Savings, Loans, Insurance, etc.) into a high-dimensional vector space. Customer queries are embedded into the same space, allowing the system to recommend products that best align with the customer’s financial needs.
+In this scenario, maps its products (Savings, Loans, Insurance, etc.) into a high-dimensional vector space. Customer queries are embedded into the same space, allowing the system to recommend products that best align with the customer’s financial needs.
 
 ---
 
@@ -24,7 +24,7 @@ In this scenario, a retail bank maps its products (Savings, Loans, Insurance, et
   Identifies the most relevant products by measuring vector similarity between queries and products.
 
 - **Visual Analysis**  
-  Includes a cosine similarity heatmap to visualize relationships between banking products.
+  Includes a cosine similarity heatmap to visualize relationships between many available products.
 
 - **Efficient Batching**  
   Implements batch processing to optimize embedding generation and API usage.
@@ -57,7 +57,7 @@ In this scenario, a retail bank maps its products (Savings, Loans, Insurance, et
 ```text
 .
 ├── data/
-│   └── banking_products.csv
+│   └── products.csv
 ├── embeddings/
 │   └── product_embeddings.npy
 ├── notebooks/
