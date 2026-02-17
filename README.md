@@ -1,4 +1,4 @@
-# Intelligent Banking Product Recommendation System
+# Intelligent Product Recommendation System
 
 An intelligent recommendation system that uses **OpenAI Embeddings** and **Cosine Similarity** to match customer queries with the most relevant banking products.
 
